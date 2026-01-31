@@ -1,9 +1,22 @@
-<<<<<<< HEAD
 # 🤖 Assistant Bot Builder
 
-A high-performance, full-stack platform designed to create, train, and manage localized AI assistants for the SCAP textile network. Built with a **FastAPI** backend for local RAG (Retrieval-Augmented Generation) and a **React 18** frontend for a premium, encrypted management experience.
+An AI Assistant Bot Builder platform for creating, training, and managing secure, local knowledge-based chatbots using a FastAPI backend and React frontend. The system uses a local RAG (Retrieval-Augmented Generation) pipeline with TF-IDF + cosine similarity — no external AI API keys required.Designed for private, offline-first deployments and modular assistant creation workflows.
+
+---
 
 
+# 📌 Overview
+
+Assistant Bot Builder enables developers and organizations to create domain-specific AI assistants trained on their own documents and text sources. It provides a secure management interface, local retrieval engine, and embeddable chatbot widget for websites.
+
+Key goals:
+
+- Local AI assistant creation
+- No cloud dependency required
+- Secure bot management
+- Fast document-based retrieval
+- Simple website embedding
+- Modular and extensible architecture
 
 ---
 
@@ -95,6 +108,41 @@ ai-bot-creator/
 
 ---
 
+# 📦 Deployment Options
+
+Supported:
+- Local machine deployment
+- On-premise server installation
+- Intranet-only network hosting
+- Offline laboratory environments
+- Private enterprise infrastructure nodes
+
+---
+
+# 🧩 Extension Ideas
+
+Possible future enhancements:
+- Replace TF-IDF with embedding-based retrieval
+- Integrate vector database (FAISS / Chroma / Milvus)
+- Add multi-language training and querying
+- Enable streaming response delivery
+- Implement role-based bot access control
+- Add pluggable model provider layer
+- Support multi-agent workflows
+
+---
+
+# 👨‍💻 Use Cases
+
+Applicable scenarios:
+- Internal company FAQ assistants
+- Private document knowledge bots
+- Academic research assistants
+- Offline technical support agents
+- Domain-specific Q&A systems
+
+---
+
 ## 🔍 API Endpoints
 * POST /train/text: Ingests raw string content into the local database.
 
@@ -116,9 +164,3 @@ ai-bot-creator/
 Made with ❤️ for the AI community.
 
 ---
-
-
-=======
-# Assistant-Bot-Builder
-AI Assistant Bot Builder platform with FastAPI + React that creates secure, local RAG-based chatbots from text and PDFs. Uses TF-IDF retrieval, encrypted bot management, and embeddable scripts. No external APIs required; optimized for private, offline-first deployments.
->>>>>>> 2c2558871b4c3ac0a24d46cd4d95ccd6b0c7f92b
