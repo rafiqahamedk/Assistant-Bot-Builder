@@ -161,6 +161,12 @@ Applicable scenarios:
 
 ---
 
+# 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
 Made with ❤️ for the AI community.
 
 ---
